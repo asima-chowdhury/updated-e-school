@@ -1,0 +1,291 @@
+/* --------------------- Resuable-code start------------------ */
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+.heading-color{    
+    color: #413960;
+}
+.padding-75{
+    padding: 75px 0;
+}
+p{
+    color: #585859;
+}
+.green-button{
+    color: white;
+    background: #21B573;
+    padding: 7px 25px;
+    border: 1px solid #21B573;
+    border-radius: 33px;
+    cursor: pointer;
+    transition: .3s;
+}
+.green-button:hover{
+    border: 1px solid #21B573;
+    color:#21B573;
+    background-color: white;
+}
+/* --------------------- Resuable-code end ------------------ */
+/* --------------------- Navigation-area start ------------------ */
+.navigation-area, .navigation-bg {
+    background-color:#F0FFF0 !important;
+}
+.logo{
+    width: 198px;
+    height: 59px;
+}
+/* --------------------- Navigation-area end ------------------ */
+/* --------------------- Top-Banner-area start ------------------ */
+.top-banner{
+    background-color: #F0FFF0 ;
+    padding-top: 200px;
+}
+.orange-highlight{
+    line-height: 24px;
+    color: #FD511A;
+}
+.green-highlight{
+    color:#21B573;
+}
+.banner-content{
+    border: none;
+    background-color: #F0FFF0 ;
+    height: 400px;
+}
+.banner-heading{
+    font-size: 48px;
+    font-weight: 700;    
+}
+.banner-paragraph{
+    line-height: 36px;
+    color: #6C6B6B;
+}
+/* --------------------- Top-Banner-area end------------------ */
+/* ------------------ Activity-area Start ------------------- */
+.single-activity{
+    width: 250px;
+    height: 250px;
+    border: none;
+    background: #e6ffe6;
+    border-radius: 10px;
+    transition: .5s;
+    padding-top: 48px;
+}
+.single-activity:hover{    
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+}
+.single-activity img{
+    width: 70px;
+    height: 70px;
+}
+/* ------------------ Activity-area end ------------------- */
+/* -------------------- Courses-area Start --------------------- */
+.small-icon{
+    width: 24px;
+    height: 24px;
+}
+.courses-card{
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+}
+.card-footer {
+    background-color: white;
+    border-top: none;
+}
+.course-img{
+    padding: 24px 20px;
+}
+/* -------------------- Courses-area end --------------------- */
+/* -------------------- Testimonial-area Start --------------------- */
+.single-testimonial{    
+    padding: 15px;
+    box-shadow: 0px 5px 41px #c7c5c5;
+    border-radius: 15px;
+}
+.single-testimonial img{
+    width: 120px;
+    height: 120px;
+    padding: 8px;
+    border: 2px solid #ded8d8;
+    border-radius: 50%;
+}
+.single-testimonial p{
+    line-height: 30px;
+    color: black;
+}
+/* -------------------- Testimonial-area End --------------------- */
+/* ------------------- Form-area start------------------ */
+.form-area{
+    background-color:#F0FFF0 ;
+}
+/* ------------------- Form-area End------------------ */
+/* ------------------- Newsletter-area start------------------ */
+.newsletter{
+    background-color: #21B573;
+}
+.newsletter-content input{
+    min-height: 40px; 
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px ;
+    background-color: #cefcce;
+}
+.newsletter-content .btn {
+    min-height: 40px; 
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px ;
+    background-color: #243c4f;
+    color: #fff;
+}
+/* ------------------- Newsletter-area End------------------ */
+/* ------------------- Footer-area start------------------ */
+.footer-area{
+    color: white;
+    background-color: #282531;
+    padding: 60px 0;
+}
+.list-group-item {
+    padding: 5px;
+    background-color: #282531;
+    border: none;
+}
+.list-group-item-action{
+    color: #fff;
+}
+.footer-area p{
+    color: white;
+}
+/* ------------------- Footer-area end------------------ */
+/* ---------------- Responsive Media query start ------------ */
+    /* Extra Small devices (below 576px) */
+    @media (min-width: 320px) and (max-width: 575px) { 
+        .logo{
+            width: 150px;
+            height: 49px;
+        }
+        .banner-heading {
+            font-size: 33px;
+        }
+        .banner-paragraph {
+            line-height: 25px;
+        }
+        .single-activity {
+            width: 220px;
+            height: 220px;
+            margin: auto;
+            margin-bottom: 15px;            
+        }
+        .single-testimonial img {
+            margin: 0 auto;
+        }
+        .single-testimonial p {
+            line-height: 25px;
+        }
+        .footer-area h5{
+            font-size: 18px;
+        }
+        .footer-area .list-group a{
+            font-size: 15px;
+        }
+        .footer-area .list-group a:last-child{
+            margin-bottom: 10px;
+        }
+        small {
+            font-size: 100%;
+        }
+        section{
+            padding: 30px 0 !important;
+        }
+    }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) and (max-width:767px){ 
+        .top-banner{
+            padding-top: 100px;
+        }
+        .single-activity {
+            width: 220px;
+            height: 220px;
+            margin: auto;
+            margin-bottom: 15px;            
+        }
+        .card-deck .card{
+            margin-bottom: 20px;
+        }
+        .single-testimonial img {
+            margin: 0 auto;
+        }
+        .single-testimonial p {
+            line-height: 25px;
+        }
+        .footer-area{
+            padding: 30px 0;
+        }
+        .footer-area h5{
+            font-size: 18px;
+        }
+        .footer-area .list-group a{
+            font-size: 15px;
+        }
+        small {
+            font-size: 100%;
+        }
+    }
+
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) and (max-width:991px) { 
+        .top-banner{
+            padding-top: 150px;
+        }
+        .banner-heading{
+            font-size: 32px;
+        }
+        .banner-paragraph {
+            margin-top: 10px;
+            line-height: 26px;
+        }
+        .single-activity {
+            width: 220px;
+            height: 220px;
+            margin: auto;
+            margin-bottom: 15px;            
+        }
+        .courses-card .card-footer small{
+            display: block;
+        }
+        .card {
+            width: 225px;
+        }
+        .single-testimonial p {
+            line-height: 25px;
+        }
+        .single-testimonial img {
+            top: 11%;
+            position: relative;
+        }
+        .footer-area{
+            padding: 30px 0;
+        }
+        .footer-area h5{
+            font-size: 18px;
+        }
+        .footer-area .list-group a{
+            font-size: 15px;
+        }
+    }
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) and (max-width:1199px) { 
+        .single-activity{
+            width: 200px;
+            height: 200px;
+            padding-top: 20px;
+        }
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) { 
+        
+    }
+/* ---------------- Responsive Media query end ------------ */
